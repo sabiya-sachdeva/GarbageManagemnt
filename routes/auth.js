@@ -30,7 +30,7 @@ const verifyToken = (req, res, next) => {
   }
 };
 
-// Register User
+// Register User  for new user
 router.post("/register", async (req, res) => {
   const { fname, lname, email, password, usertype } = req.body;
 
