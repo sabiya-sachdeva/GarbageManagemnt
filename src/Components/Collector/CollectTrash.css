@@ -1,0 +1,77 @@
+.waste-details-content {
+  display: flex;
+  padding: 20px 100px;
+  gap: 20px;
+  background-color: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+}
+
+.waste-details-card,
+.collector-form {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  padding: 30px;
+}
+
+.waste-image {
+  width: 550px;
+  height: 350px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.waste-description h4 {
+  padding: 15px;
+}
+
+.waste-description p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.confirm-collection-button {
+  background-color: #44c767;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.confirm-collection-button:hover {
+  background-color: #5cb85c;
+}
+
+.colform-label {
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: large;
+  text-align: left;
+}
+
+.typeTag {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.typeTag li {
+  flex: 1;
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 5px 10px; /* Adds some padding inside the tags */
+  border-radius: 20px; /* Rounds the corners of the tags */
+  text-decoration: none; /* Removes underline from links if any */
+  color: #333; /* Darker text color for better readability */
+  font-size: 0.9rem; /* Adjusts the font size */
+  border: 1px solid #ddd; /* Adds a subtle border */
+}

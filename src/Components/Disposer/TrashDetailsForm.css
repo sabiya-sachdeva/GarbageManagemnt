@@ -1,0 +1,206 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+#msform {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 30px;
+}
+
+#progressbar {
+  margin: 0 auto;
+  width: 50%;
+}
+.error-message{
+text-align: center;
+}
+
+#msform fieldset {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px 10px;
+  width: 80%;
+  border-radius: 25px;
+  margin: 0 auto;
+  min-height: 320px; /* Adjust based on your content's needs */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns content to the top */
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+/*inputs*/
+#msform input,
+#msform textarea {
+  padding: 12px;
+  border: 1px solid #ebe5e5;
+  margin-bottom: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+#msform input:focus,
+#msform textarea:focus {
+  border: 1px solid black;
+  outline-width: 0;
+  transition: all 0.5s ease-in;
+}
+
+/*buttons*/
+#msform .action-button {
+  width: 120px;
+  background: black;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px black;
+}
+/* Headings Styles */
+.fs-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fs-subtitle {
+  font-weight: 500;
+  margin: 10px;
+  font-size: 18px;
+}
+
+/* Progress Bar Styles */
+#progressbar {
+  margin-bottom: 20px;
+  overflow: hidden;
+  counter-reset: step;
+}
+
+#progressbar li {
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  width: 25%;
+  float: left;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+#progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 24px;
+  height: 24px;
+  line-height: 22px;
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  background: white;
+  border-radius: 25px;
+  margin: 0 auto 10px auto;
+}
+
+#progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: -50%;
+  top: 9px;
+  z-index: -1;
+}
+
+#progressbar li:first-child:after {
+  content: none;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: black;
+  color: white;
+}
+
+.confirmation-message {
+  margin: 50px;
+  text-align: center;
+}
+
+.confirmation-message img {
+  padding: 40px;
+}
+
+.trashdetails h5 {
+  text-align: center;
+}
+
+.waste-types-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+.waste-type-item {
+  min-width: 80px;
+  margin-right: 20px;
+}
+
+.detail > label,
+.detail > input {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  width: 120px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-file-upload:hover,
+.custom-file-upload:focus {
+  background-color: #dedede;
+  border-color: #929292;
+  outline: none;
+}
+
+.imgURL img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}

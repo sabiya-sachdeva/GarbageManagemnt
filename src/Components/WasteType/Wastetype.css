@@ -1,0 +1,30 @@
+/* Waste Type Carousal Styling */
+
+.cor2 {
+  background-color: #f9f9f9;
+  padding: 10px 10px;
+  margin: 30px 35px;
+  border-radius: 35px;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card img {
+  border-radius: 15px;
+}
+
+/* .carousel-control-next,
+.carousel-control-prev {
+  background-color: whitesmoke;
+  color: blue;
+} */

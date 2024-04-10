@@ -1,0 +1,86 @@
+.cta-login-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url("/public/background.jpg"); /* Adjust the path as needed */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.ToHomepage {
+  margin-bottom: 10px;
+}
+
+.cta-form-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px 60px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.cta-signup-btn,
+.cta-login-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cta-signup-btn {
+  background-color: #000000;
+  color: white;
+}
+.cta-login-btn {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.cta-signup-btn:hover {
+  background-color: #313131;
+}
+.cta-login-btn:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.cta-login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.terms-text {
+  font-size: 0.7em;
+  text-align: center;
+  margin: auto;
+  font-size: small;
+}
+
+.terms-text .link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.terms-text .link:hover {
+  font-weight: 500;
+}
+
+.error-message {
+  color: red;
+  text-align: left;
+  margin-left: 15px;
+  font-size: small;
+  margin-bottom: 0;
+}

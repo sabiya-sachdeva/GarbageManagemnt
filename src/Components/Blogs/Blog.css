@@ -1,0 +1,45 @@
+.page-layout {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start;
+    /* flex-wrap: horizonally;  */
+    /* Enable wrapping */
+  }
+  
+  .trashavalaible-container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(100% - 270px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .trashavalaible-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .trashavalaible-card:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  .trash-image img {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .page-layout{
+    margin-left: 30px;
+  }  

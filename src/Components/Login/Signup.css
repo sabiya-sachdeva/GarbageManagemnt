@@ -1,0 +1,157 @@
+.signup-form {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.signup-form p {
+  font-size: small;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: 2px solid #d7d7d7;
+}
+
+.signup-btn {
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin: 10px 0px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.signup-form form .signup-btn:hover {
+  background-color: #313131;
+}
+
+/* terms */
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  font-size: 0.7em;
+  text-align: left;
+  cursor: pointer;
+  user-select: none; /* Prevent text from being selectable */
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border-radius: 4px; /* Optional: if you want rounded corners */
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #000000;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-container .link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.checkbox-container .link:hover {
+  font-weight: 500;
+}
+
+/* .password-toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 20px; 
+  height: 20px; 
+} */
+
+.error-message {
+  margin-top: 0px;
+  color: red;
+}
+
+.radio_container p {
+  font-size: x-small;
+  padding-top: 5px;
+  margin: auto;
+}
+.radio_row {
+  display: flex;
+}
+
+.radio_row label {
+  display: flex;
+  padding: 5px;
+  flex-grow: 1; /* Equal division */
+}
+
+.radio_row input[type="radio"] {
+  margin: auto 0;
+  margin-right: 10px;
+  width: auto;
+}
+.passwod-container input[type="password"] {
+  padding-right: 20px; /* Add padding to the right for the image */
+}
+
+.signupeyeimage{
+  position: absolute;
+  top: 47.5%;
+  right: 39%;
+  /* transform: translateY(-75%); */
+  height: 3%;
+}
+.signupeyeimagecpass{
+  position: absolute;
+  top: 55.4%;
+  right: 39%;
+  /* transform: translateY(-74%); */
+  height: 3%;
+}
+.message{
+  color: red;
+}

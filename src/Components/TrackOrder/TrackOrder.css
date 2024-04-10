@@ -1,0 +1,112 @@
+.track-order-body {
+  margin: 0px 150px;
+  padding: 50px;
+}
+
+.track-heading {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.horizontal-line {
+  border: 1px solid rgb(164, 164, 164);
+  width: 100%;
+}
+
+.track-order-body {
+  padding: 20px;
+}
+
+.track-orders {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust based on preference */
+  text-align: left;
+}
+
+.order {
+  display: flex;
+  align-items: stretch;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+}
+
+.order-image img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.order-details {
+  flex-grow: 2;
+  margin-left: 30px;
+}
+
+.order-details p {
+  margin: 5px 0px;
+}
+
+.loading,
+.no-orders {
+  text-align: center;
+}
+
+.order-details h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.order-actions {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.order-save-button {
+  padding: 10px 20px;
+  background-color: #e8e8e8;
+  border: 2px solid rgb(225, 225, 225);
+  border-radius: 10px;
+  font-weight: 400;
+  min-width: 180px;
+}
+
+.order-save-button:hover {
+  cursor: pointer;
+  background-color: #dbdbdb;
+}
+
+.order-save-button .icon {
+  width: 20px;
+  height: auto;
+  margin-right: 5px; /* Space between icon and text */
+  vertical-align: middle;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tabs .active-tab {
+  border-bottom: 1px solid rgb(183, 183, 183);
+  font-weight: 600;
+}

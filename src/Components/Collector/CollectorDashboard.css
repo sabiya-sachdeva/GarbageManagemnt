@@ -1,0 +1,98 @@
+.page-layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  border-radius: 8px;
+  width: auto;
+  margin-right: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
+
+.filter-container > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.trashavalaible-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(100% - 270px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.trashavalaible-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 380px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trashavalaible-card:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.trashavalaible-card p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.trash-image img {
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.lbl {
+  font-weight: bold;
+  text-align: left;
+}
+
+.collectBtn {
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collectBtn:hover {
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 0 0 2px white, 0 0 0 3px black;
+}

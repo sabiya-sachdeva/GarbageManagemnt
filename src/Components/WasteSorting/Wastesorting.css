@@ -1,0 +1,32 @@
+/* Styling for Waste Sorting Guide Page */
+
+.waste img {
+  width: 450px;
+}
+
+.waste {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-around; /* Add space around the items */
+  font-family: "Poppins", sans-serif;
+}
+
+.wastesorting {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  align-items: flex-start; /* Align items to the start of the column (left) */
+  margin-left: 5px; /* Adjust the margin as needed to separate image and text */
+}
+
+.wastesorting img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.wastesorting h2,
+.wastesorting h6,
+.wastesorting p {
+  margin: 0; /* Remove default margins for consistent spacing */
+}
+#secondimage img {
+  width: 550px;
+}

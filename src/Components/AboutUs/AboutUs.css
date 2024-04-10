@@ -1,0 +1,31 @@
+.aboutush1{
+margin-top: 2%;
+text-align: left;
+margin-left: 2%;
+margin-right: 2%;
+}
+.aboususli{
+   
+    list-style-type: lower-latin;
+    text-align: left;
+}
+.aboutimage {
+    flex: 1; /* Take up remaining space */
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Image */
+  /* .aboutimage img {
+   
+ 
+
+  } */
+  #aboutimage{
+    width: 1%;
+    border-radius: 5%;
+    
+  }
+  .about-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+  }

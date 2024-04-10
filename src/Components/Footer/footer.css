@@ -1,0 +1,68 @@
+/* Styling for Footer  */
+
+.footer {
+  margin: 100px 35px;
+  display: flex;
+  text-align: left;
+}
+
+.footer-content {
+  padding-left: 100px;
+  flex: 1 1 50%;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+.footer li {
+  padding: 5px;
+  text-align: left;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-content h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.socials {
+  margin-right: 15px;
+}
+
+.footflex {
+  display: flex;
+}
+
+.links {
+  flex: 1 1 50%;
+}
+
+.cc {
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  letter-spacing: 0.5pt;
+}
+
+.divider-line {
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 50px;
+}
