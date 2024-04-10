@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import FirstNavbar from "../Navbars/FirstNavbar";
 import SecondNavbar from "../Navbars/SecondNavbar";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/Footer";// adding footer
 import "./Blog.css"
 function Blog() {
   const [showFullContentOrganic, setShowFullContentOrganic] = useState(false);
